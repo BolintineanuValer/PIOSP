@@ -63,7 +63,8 @@ public class Calculator {
 		}
 	}
 	public void calculatoroption(){
-		double term,result;
+		double term;
+		double result;
 		int choice=0;
 		double term1=userinput();
 		do
@@ -71,7 +72,6 @@ public class Calculator {
 		calculatormeniu();
 		choice = userchoice();
 		switch (choice){
-			
 			case 1:
 				term=userinput();
 				result=add(term1,term);

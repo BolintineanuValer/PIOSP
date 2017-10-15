@@ -9,7 +9,7 @@ public class TestCalculator {
 	private Calculator calculator=new Calculator();
 
 	@Test
-	public void test_add() {
+	public void testAdd() {
 		double test_add1=calculator.add(2, 3);
 		double test_add2=calculator.add(-10, -7);
 		double test_add3=calculator.add(1, -3);
@@ -25,7 +25,7 @@ public class TestCalculator {
 		System.out.println("Tests passed --- add()");
 	}
 	@Test
-	public void test_sub(){
+	public void testSub(){
 		double test_sub1=calculator.sub(2, 3);
 		double test_sub2=calculator.sub(-10, -7);
 		double test_sub3=calculator.sub(1, -3);
@@ -41,7 +41,7 @@ public class TestCalculator {
 		System.out.println("Tests passed --- sub()");
 	}
 	@Test
-	public void test_mul(){
+	public void testMul(){
 		double test_mul1=calculator.mul(2, 3);
 		double test_mul2=calculator.mul(-10, -7);
 		double test_mul3=calculator.mul(1, -3);
@@ -57,7 +57,7 @@ public class TestCalculator {
 		System.out.println("Tests passed --- mul()");
 	}
 	@Test
-	public void test_div(){
+	public void testDiv(){
 		double test_div1=calculator.div(2, 3);
 		double test_div2=calculator.div(-14, -7);
 		double test_div3=calculator.div(1, -3);
@@ -80,7 +80,7 @@ public class TestCalculator {
 		System.out.println("Tests passed --- div()");
 	}
 	@Test
-	public void test_min(){
+	public void testMin(){
 		double test_min1=calculator.min(2, 3);
 		double test_min2=calculator.min(-10, -7);
 		double test_min3=calculator.min(1, -3);
@@ -96,7 +96,7 @@ public class TestCalculator {
 		System.out.println("Tests passed --- min()");
 	}
 	@Test
-	public void test_max(){
+	public void testMax(){
 		double test_max1=calculator.max(2, 3);
 		double test_max2=calculator.max(-10, -7);
 		double test_max3=calculator.max(1, -3);
@@ -113,7 +113,7 @@ public class TestCalculator {
 		
 	}
 	@Test
-	public void test_sqrt(){
+	public void testSqrt(){
 		double test_sqrt1=calculator.sqrt(2);
 		double test_sqrt2=calculator.sqrt(4);
 		double test_sqrt3=calculator.sqrt(1);
