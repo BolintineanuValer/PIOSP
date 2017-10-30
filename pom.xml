@@ -17,6 +17,8 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<jacoco-version>0.7.9</jacoco-version>
+		<jmh.version>1.19</jmh.version>
+        <uberjar.name>benchmarks</uberjar.name>
 	</properties>
 
 	<!-- common dependencies for all modules -->
@@ -88,7 +90,8 @@
 		<module>report</module>
 		<!-- add here any other modules -->
 		<module>piosplab1</module>
-	</modules>
+        <module>piosplab2</module>
+    </modules>
 
 	<profiles>
 		<profile>
